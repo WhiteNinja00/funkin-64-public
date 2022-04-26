@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mario health.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="health1.png" x="0" y="0" width="65" height="52"/>
+	<SubTexture name="health2.png" x="75" y="0" width="65" height="52"/>
+	<SubTexture name="health3.png" x="150" y="0" width="65" height="52"/>
+	<SubTexture name="health4.png" x="0" y="62" width="65" height="52"/>
+	<SubTexture name="health5.png" x="75" y="62" width="65" height="52"/>
+	<SubTexture name="health6.png" x="150" y="62" width="65" height="52"/>
+	<SubTexture name="health7.png" x="0" y="124" width="65" height="52"/>
+	<SubTexture name="health8.png" x="75" y="124" width="65" height="52"/>
+</TextureAtlas>

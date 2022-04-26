@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cartrages.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mario 640000" x="0" y="0" width="97" height="74"/>
+	<SubTexture name="mario 64 selected0000" x="107" y="0" width="104" height="69"/>
+</TextureAtlas>

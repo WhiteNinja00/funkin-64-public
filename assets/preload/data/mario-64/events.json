@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "mario",
+		"player1": "bfmario",
+		"player2": "bfmario",
+		"player3": null,
+		"events": [
+			[
+				88000,
+				[
+					[
+						"Change Character",
+						"1",
+						"bowser"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "noone",
+		"bpm": 180,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "mario-64"
+	}
+}

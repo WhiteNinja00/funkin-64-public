@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mario64.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="downsing0000" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0001" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0002" x="3862" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0003" x="3862" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0004" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0005" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0006" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0007" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0008" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0009" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0010" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0011" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0012" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing0013" x="1931" y="0" width="1921" height="1080"/>
+	<SubTexture name="idle0000" x="5793" y="0" width="1997" height="1043" frameX="0" frameY="-29" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0001" x="0" y="1090" width="1974" height="1043" frameX="-11" frameY="-29" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0002" x="1984" y="1090" width="1977" height="1043" frameX="-10" frameY="-29" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0003" x="3971" y="1090" width="1966" height="1080" frameX="-15" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0004" x="5947" y="1090" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0005" x="0" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0006" x="1930" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0007" x="3860" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0008" x="5790" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0009" x="5790" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0010" x="5790" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0011" x="5790" y="2180" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0012" x="0" y="3270" width="1965" height="1065" frameX="-15" frameY="-12" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="idle0013" x="5947" y="1090" width="1920" height="1080" frameX="-38" frameY="0" frameWidth="1997" frameHeight="1080"/>
+	<SubTexture name="leftsing0000" x="1975" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0001" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0002" x="5835" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0003" x="5835" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0004" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0005" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0006" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0007" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0008" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0009" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0010" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0011" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0012" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="leftsing0013" x="3905" y="3270" width="1920" height="1080"/>
+	<SubTexture name="rightsing0000" x="0" y="4360" width="1920" height="1080" frameX="-18" frameY="0" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0001" x="1930" y="4360" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0002" x="3860" y="4360" width="1920" height="1080" frameX="-2" frameY="-45" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0003" x="3860" y="4360" width="1920" height="1080" frameX="-2" frameY="-45" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0004" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0005" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0006" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0007" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0008" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0009" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0010" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0011" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0012" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="rightsing0013" x="1930" y="4360" width="1920" height="1080" frameX="-9" frameY="-18" frameWidth="1938" frameHeight="1125"/>
+	<SubTexture name="upsing0000" x="5790" y="4360" width="1921" height="1080" frameX="0" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0001" x="0" y="5450" width="1921" height="1080" frameX="-9" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0002" x="1931" y="5450" width="1921" height="1080" frameX="-19" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0003" x="1931" y="5450" width="1921" height="1080" frameX="-19" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0004" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0005" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0006" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0007" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0008" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0009" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0010" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0011" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0012" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+	<SubTexture name="upsing0013" x="0" y="5450" width="1921" height="1080" frameX="-11" frameY="0" frameWidth="1940" frameHeight="1080"/>
+</TextureAtlas>

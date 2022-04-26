@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="coin note.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="165" height="164"/>
+	<SubTexture name="blue0001" x="0" y="0" width="165" height="164"/>
+	<SubTexture name="blue0002" x="175" y="0" width="165" height="164"/>
+	<SubTexture name="blue0003" x="175" y="0" width="165" height="164"/>
+	<SubTexture name="blue0004" x="350" y="0" width="165" height="164"/>
+	<SubTexture name="blue0005" x="350" y="0" width="165" height="164"/>
+	<SubTexture name="blue0006" x="525" y="0" width="165" height="164"/>
+	<SubTexture name="blue0007" x="525" y="0" width="165" height="164"/>
+	<SubTexture name="green0000" x="700" y="0" width="165" height="164"/>
+	<SubTexture name="green0001" x="700" y="0" width="165" height="164"/>
+	<SubTexture name="green0002" x="0" y="174" width="165" height="164"/>
+	<SubTexture name="green0003" x="0" y="174" width="165" height="164"/>
+	<SubTexture name="green0004" x="348" y="348" width="164" height="164"/>
+	<SubTexture name="green0005" x="348" y="348" width="164" height="164"/>
+	<SubTexture name="green0006" x="175" y="174" width="165" height="164"/>
+	<SubTexture name="green0007" x="175" y="174" width="165" height="164"/>
+	<SubTexture name="purple0000" x="350" y="174" width="164" height="164"/>
+	<SubTexture name="purple0001" x="350" y="174" width="164" height="164"/>
+	<SubTexture name="purple0002" x="524" y="174" width="164" height="164"/>
+	<SubTexture name="purple0003" x="524" y="174" width="164" height="164"/>
+	<SubTexture name="purple0004" x="350" y="0" width="165" height="164"/>
+	<SubTexture name="purple0005" x="350" y="0" width="165" height="164"/>
+	<SubTexture name="purple0006" x="698" y="174" width="164" height="164"/>
+	<SubTexture name="purple0007" x="698" y="174" width="164" height="164"/>
+	<SubTexture name="red0000" x="0" y="348" width="164" height="164"/>
+	<SubTexture name="red0001" x="0" y="348" width="164" height="164"/>
+	<SubTexture name="red0002" x="174" y="348" width="164" height="164"/>
+	<SubTexture name="red0003" x="174" y="348" width="164" height="164"/>
+	<SubTexture name="red0004" x="348" y="348" width="164" height="164"/>
+	<SubTexture name="red0005" x="348" y="348" width="164" height="164"/>
+	<SubTexture name="red0006" x="522" y="348" width="164" height="164"/>
+	<SubTexture name="red0007" x="522" y="348" width="164" height="164"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="game room.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="background0000" x="0" y="0" width="2813" height="926"/>
+	<SubTexture name="screen uhhh0000" x="2823" y="0" width="425" height="299"/>
+	<SubTexture name="screen stuff0000" x="3258" y="0" width="337" height="242"/>
+	<SubTexture name="screen stuff0001" x="3605" y="0" width="337" height="242"/>
+	<SubTexture name="screen stuff0002" x="0" y="936" width="337" height="242"/>
+	<SubTexture name="screen stuff0003" x="347" y="936" width="337" height="242"/>
+	<SubTexture name="screen stuff0004" x="694" y="936" width="337" height="242"/>
+	<SubTexture name="shelf0000" x="1041" y="936" width="699" height="836"/>
+	<SubTexture name="table0000" x="1750" y="936" width="719" height="205"/>
+</TextureAtlas>
