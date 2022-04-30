@@ -86,3 +86,6 @@ haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git
 6. Open project in command line `cd (path to fnf source)`
 And run command `lime build android -final`
 Apk will be generated in this path (path to source)\export\release\android\bin\app\build\outputs\apk\debug
+
+## Compile Error fix
+- `C:/HaxeToolkit/haxe/lib/flixel/4,10,0/flixel/input/actions/FlxAction.hx:141: characters 18-46 : Type not found : FlxActionInputDigitalAndroid`, [**click here**](https://gist.github.com/JOELwindows7/118b3a40a76d60e701399a61fb5e1c2d)
