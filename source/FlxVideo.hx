@@ -18,8 +18,12 @@ class FlxVideo extends FlxBasic {
 	public static var vlcBitmap:VlcBitmap;
 	#end
 
-	public function new(name:String) {
+	var xuhhh = 0;
+
+	public function new(name:String, xstuff:Int = 0) {
 		super();
+
+		xuhhh = xstuff;
 
 		#if web
 		var player:Video = new Video();
@@ -60,6 +64,7 @@ class FlxVideo extends FlxBasic {
 		vlcBitmap.repeat = 0;
 		vlcBitmap.inWindow = false;
 		vlcBitmap.fullscreen = false;
+		vlcBitmap.x = xuhhh;
 		fixVolume(null);
 
 		FlxG.addChildBelowMouse(vlcBitmap);

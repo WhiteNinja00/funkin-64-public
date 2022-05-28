@@ -185,40 +185,55 @@ class TitleState extends MusicBeatState
 		}
 
 		FlxG.mouse.visible = false;
+		if(FlxG.save.data.flashing == null && !FlashingState.leftState) {
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			MusicBeatState.switchState(new FlashingState());
+		}
 		#if FREEPLAY
 		MusicBeatState.switchState(new FreeplayState());
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		#if desktop
-		if (!DiscordClient.isInitialized)
-		{
-			DiscordClient.initialize();
-			Application.current.onExit.add (function (exitCode) {
-				DiscordClient.shutdown();
-			});
-		}
-		#end
-		new FlxTimer().start(1, function(tmr:FlxTimer)
-		{
-			if (!initialized) {
-				if (CoolUtil.demo) {
-				Conductor.changeBPM(titleJSON.bpm);
-				PlayState.SONG = Song.loadFromJson('mario-64', 'mario-64');
-				PlayState.isStoryMode = false;
-				PlayState.storyDifficulty = 1;
-				}
-				var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-				bg.scrollFactor.set();
-				add(bg);
-				(new FlxVideo('assets/videos/intro.' + Paths.VIDEO_EXT)).finishCallback = function() {
-					remove(bg);
+		if(FlxG.save.data.flashing == null && !FlashingState.leftState) {
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			MusicBeatState.switchState(new FlashingState());
+		} else {
+			#if desktop
+			if (!DiscordClient.isInitialized)
+			{
+				DiscordClient.initialize();
+				Application.current.onExit.add (function (exitCode) {
+					DiscordClient.shutdown();
+				});
+			}
+			#end
+
+			CoolUtil.senddiscordmessage('someone has opened the game');
+
+			Conductor.changeBPM(titleJSON.bpm);
+
+			new FlxTimer().start(1, function(tmr:FlxTimer)
+			{
+				if (!initialized) {
+					if (CoolUtil.demo) {
+					PlayState.SONG = Song.loadFromJson('mario-64', 'mario-64');
+					PlayState.isStoryMode = false;
+					PlayState.storyDifficulty = 1;
+					}
+					var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+					bg.scrollFactor.set();
+					add(bg);
+					(new FlxVideo('assets/videos/intro.mp4')).finishCallback = function() {
+						remove(bg);
+						startIntro();
+					}
+				} else {
 					startIntro();
 				}
-			} else {
-				startIntro();
-			}
-		});
+			});
+		}
 		#end
 	}
 
@@ -230,16 +245,10 @@ class TitleState extends MusicBeatState
 
 	function startIntro()
 	{
-		if (!initialized && FlxG.sound.music == null)
-		{
+		if (!initialized && FlxG.sound.music == null) {
 			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-			if(CoolUtil.demo) {
-				FlxG.sound.music.fadeIn(4, 0, 0);
-			} else {
-				FlxG.sound.music.fadeIn(4, 0, 0.7);
-			}
 		}
-
+	
 		Conductor.changeBPM(titleJSON.bpm);
 		persistentUpdate = true;
 
@@ -301,9 +310,7 @@ class TitleState extends MusicBeatState
 		}
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
 		
-		add(gfDance);
 		gfDance.shader = swagShader.shader;
-		add(logoBl);
 		logoBl.shader = swagShader.shader;
 
 		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
@@ -329,7 +336,6 @@ class TitleState extends MusicBeatState
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
 		// titleText.screenCenter(X);
-		add(titleText);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
 		logo.screenCenter();
@@ -364,16 +370,15 @@ class TitleState extends MusicBeatState
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
 		if (CoolUtil.demo) {
-		Conductor.changeBPM(titleJSON.bpm);
-		PlayState.SONG = Song.loadFromJson('mario-64', 'mario-64');
-		PlayState.isStoryMode = false;
-		PlayState.storyDifficulty = 1;
-		LoadingState.loadAndSwitchState(new PlayState());
+			Conductor.changeBPM(titleJSON.bpm);
+			PlayState.SONG = Song.loadFromJson('mario-64', 'mario-64');
+			PlayState.isStoryMode = false;
+			PlayState.storyDifficulty = 1;
+			LoadingState.loadAndSwitchState(new PlayState());
 		}
-		else if (initialized)
+		else{
 			skipIntro();
-		else
-			initialized = true;
+		}
 
 		// credGroup.add(credTextShit);
 	}
@@ -433,20 +438,11 @@ class TitleState extends MusicBeatState
 		{
 			if(pressedEnter)
 			{
-				if(titleText != null) titleText.animation.play('press');
-
-				FlxG.camera.flash(FlxColor.WHITE, 1);
-				FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-
-				transitioning = true;
-				// FlxG.sound.music.stop();
-
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					MusicBeatState.switchState(new MainMenuState());
 					closedState = true;
 				});
-				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 			}
 			#if TITLE_SCREEN_EASTER_EGG
 			else if (FlxG.keys.firstJustPressed() != FlxKey.NONE)
@@ -494,11 +490,6 @@ class TitleState extends MusicBeatState
 				}
 			}
 			#end
-		}
-
-		if (initialized && pressedEnter && !skippedIntro)
-		{
-			skipIntro();
 		}
 
 		if(swagShader != null)
@@ -550,19 +541,9 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 		if (!CoolUtil.demo) {
-			if(logoBl != null) 
-				logoBl.animation.play('bump', true);
-
-			if(gfDance != null) {
-				danceLeft = !danceLeft;
-				if (danceLeft)
-					gfDance.animation.play('danceRight');
-				else
-					gfDance.animation.play('danceLeft');
-			}
-
 			if(!closedState) {
 				sickBeats++;
+				skipIntro();
 				switch (sickBeats)
 				{
 					case 1:
@@ -617,6 +598,7 @@ class TitleState extends MusicBeatState
 	var increaseVolume:Bool = false;
 	function skipIntro():Void
 	{
+		MusicBeatState.switchState(new MainMenuState());
 		if (!skippedIntro)
 		{
 			if (playJingle) //Ignore deez
@@ -640,12 +622,11 @@ class TitleState extends MusicBeatState
 					default: //Go back to normal ugly ass boring GF
 						remove(ngSpr);
 						remove(credGroup);
-						FlxG.camera.flash(FlxColor.WHITE, 2);
+						FlxG.camera.flash(FlxColor.BLACK, 10);
 						skippedIntro = true;
 						playJingle = false;
 						
 						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-						FlxG.sound.music.fadeIn(4, 0, 0.7);
 						return;
 				}
 
@@ -656,7 +637,7 @@ class TitleState extends MusicBeatState
 					{
 						remove(ngSpr);
 						remove(credGroup);
-						FlxG.camera.flash(FlxColor.WHITE, 0.6);
+						FlxG.camera.flash(FlxColor.BLACK, 10);
 						transitioning = false;
 					});
 				}
@@ -664,10 +645,9 @@ class TitleState extends MusicBeatState
 				{
 					remove(ngSpr);
 					remove(credGroup);
-					FlxG.camera.flash(FlxColor.WHITE, 3);
+					FlxG.camera.flash(FlxColor.BLACK, 10);
 					sound.onComplete = function() {
 						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-						FlxG.sound.music.fadeIn(4, 0, 0.7);
 						transitioning = false;
 					};
 				}
@@ -677,7 +657,7 @@ class TitleState extends MusicBeatState
 			{
 				remove(ngSpr);
 				remove(credGroup);
-				FlxG.camera.flash(FlxColor.WHITE, 4);
+				FlxG.camera.flash(FlxColor.BLACK, 10);
 
 				var easteregg:String = FlxG.save.data.psychDevsEasterEgg;
 				if (easteregg == null) easteregg = '';

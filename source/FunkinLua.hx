@@ -1064,11 +1064,7 @@ class FunkinLua {
 					}
 					else
 					{
-						if(PlayState.instance.isDead)
-						{
-							GameOverSubstate.instance.insert(GameOverSubstate.instance.members.indexOf(GameOverSubstate.instance.boyfriend), shit);
-						}
-						else
+						if(!PlayState.instance.isDead)
 						{
 							var position:Int = PlayState.instance.members.indexOf(PlayState.instance.gfGroup);
 							if(PlayState.instance.members.indexOf(PlayState.instance.boyfriendGroup) < position) {

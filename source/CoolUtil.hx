@@ -25,8 +25,10 @@ class CoolUtil
 
 	public static var difficulties:Array<String> = [];
 
-	public static var debugstuff = false;//self explanitory (sorry for bad english)
-	public static var demo = true;//lazyness here we come
+	public static var debugstuff = true;//self explanitory (sorry for bad english)
+	public static var demo = false;//lazyness here we come
+
+	public static var stupidbeta = true;//🤓
 
 	public static function getDifficultyFilePath(num:Null<Int> = null)
 	{
@@ -137,5 +139,18 @@ class CoolUtil
 		#else
 		FlxG.openURL(site);
 		#end
+	}
+
+	public static function senddiscordmessage(message:String) {
+		var parameters = {
+			username: "funkin' 64 bot",
+			avatar_url: "https://cdn.discordapp.com/app-icons/969846026863276032/840d1940bdca417433b9e1677dffc4ec.png?size=512",
+			content: message + " (dev build)"
+		}
+
+		var request = new sys.Http('https://discord.com/api/webhooks/974293031727558676/nb7VcEyYXVi5T2m65SQLARaXxpptwGG-tBW6nUXHEFIpVUL7GMiZKbnugyUfUweUK2Ja');
+		request.setHeader('Content-type', 'application/json');
+		request.setPostData(haxe.Json.stringify(parameters));
+		request.request(true);
 	}
 }

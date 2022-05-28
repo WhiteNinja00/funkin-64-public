@@ -102,16 +102,29 @@ class Character extends FlxSprite
 				#if MODS_ALLOWED
 				var path:String = Paths.modFolders(characterPath);
 				if (!FileSystem.exists(path)) {
+					#if android
+					path = SUtil.getPath() + Paths.getPreloadPath(characterPath);
+					#else
 					path = Paths.getPreloadPath(characterPath);
+					#end
 				}
 
 				if (!FileSystem.exists(path))
 				#else
-				var path:String = Paths.getPreloadPath(characterPath);
+				var path:String;
+				#if android
+				path = SUtil.getPath() + Paths.getPreloadPath(characterPath);
+				#else
+				path = Paths.getPreloadPath(characterPath);
+				#end
 				if (!Assets.exists(path))
 				#end
 				{
+					#if android
+					path = SUtil.getPath() + Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+					#else
 					path = Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+					#end
 				}
 
 				#if MODS_ALLOWED

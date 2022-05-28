@@ -25,6 +25,10 @@ class DemoStuff extends MusicBeatSubstate
 
 	override function create()
 	{
+        #if android
+        addVirtualPad(NONE, A_B);
+        #end
+
 		super.create();
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(960, 720, FlxColor.BLACK);

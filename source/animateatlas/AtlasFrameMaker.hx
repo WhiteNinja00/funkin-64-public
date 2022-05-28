@@ -17,8 +17,11 @@ import flixel.graphics.frames.FlxFrame;
 import sys.FileSystem;
 import sys.io.File;
 #else
+#if android
+#else
 import js.html.FileSystem;
 import js.html.File;
+#end
 #end
 
 using StringTools;

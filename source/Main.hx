@@ -33,6 +33,11 @@ class Main extends Sprite
 	{
 		super();
 
+		#if android
+		gameWidth = 1280;
+		SUtil.gameCrashCheck();
+		#end
+
 		if (stage != null)
 		{
 			init();
@@ -75,8 +80,10 @@ class Main extends Sprite
 		// fuck you, persistent caching stays ON during sex
 		FlxGraphic.defaultPersist = true;
 		// the reason for this is we're going to be handling our own cache smartly
+		#if android
+		SUtil.doTheCheck();
+		#end
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
-
 		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);

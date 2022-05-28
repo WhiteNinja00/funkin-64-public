@@ -85,6 +85,8 @@ class CreditsState extends MusicBeatState
 			['The White Ninja',		'wn',				'Did The Code, 3D Models',									'https://linktr.ee/the_white_ninja', 	'FFFFFF'],
 			['hNation',				'h',				'Composed The Mario 64 Song',			 'https://www.youtube.com/channel/UCqWC8U5f0qhK7xTVReq0Ptg','B43F3E'],
 			['Cally Cobble',		'cally',			'Charted The Mario 64 Song',								'https://www.youtube.com/c/CallyCobble','FFFFFF'],
+			['HexFalc',      	   	'hex',    	    	'Coded The Android Port',     			 'https://youtube.com/channel/UC6CIIVdSW0lseOysu408_EQ','0xFFFFBB1B'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
@@ -163,6 +165,11 @@ class CreditsState extends MusicBeatState
 		bg.color = getCurrentBGColor();
 		intendedColor = bg.color;
 		changeSelection();
+
+		#if android
+		addVirtualPad(UP_DOWN, A_B);
+		#end
+
 		super.create();
 	}
 

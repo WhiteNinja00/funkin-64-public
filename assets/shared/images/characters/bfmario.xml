@@ -2,130 +2,130 @@
 <TextureAtlas imagePath="bfmario.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="downmiss0000" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0001" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0002" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0003" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0004" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0005" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0006" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0007" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0008" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0009" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0010" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0011" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0012" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downmiss0013" x="0" y="0" width="1921" height="1080"/>
-	<SubTexture name="downsing0000" x="1931" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0001" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0002" x="5793" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0003" x="5793" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0004" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0005" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0006" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0007" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0008" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0009" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0010" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0011" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0012" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="downsing0013" x="3862" y="0" width="1921" height="1081"/>
-	<SubTexture name="idle0000" x="0" y="1091" width="2063" height="1031" frameX="0" frameY="-70" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0001" x="2073" y="1091" width="1995" height="1040" frameX="-35" frameY="-62" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0002" x="4078" y="1091" width="1971" height="1107" frameX="-47" frameY="0" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0003" x="6059" y="1091" width="1920" height="1094" frameX="-74" frameY="-13" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0004" x="0" y="2208" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0005" x="1930" y="2208" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0006" x="3860" y="2208" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0007" x="5790" y="2208" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0008" x="0" y="3298" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0009" x="0" y="3298" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0010" x="0" y="3298" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0011" x="0" y="3298" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0012" x="1930" y="2208" width="1920" height="1080" frameX="-74" frameY="-25" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="idle0013" x="6059" y="1091" width="1920" height="1094" frameX="-74" frameY="-13" frameWidth="2063" frameHeight="1107"/>
-	<SubTexture name="leftmiss0000" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0001" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0002" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0003" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0004" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0005" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0006" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0007" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0008" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0009" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0010" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0011" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0012" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftmiss0013" x="1930" y="3298" width="1920" height="1080"/>
-	<SubTexture name="leftsing0000" x="3860" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0001" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0002" x="0" y="4389" width="1920" height="1081"/>
-	<SubTexture name="leftsing0003" x="0" y="4389" width="1920" height="1081"/>
-	<SubTexture name="leftsing0004" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0005" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0006" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0007" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0008" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0009" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0010" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0011" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0012" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="leftsing0013" x="5790" y="3298" width="1920" height="1081"/>
-	<SubTexture name="rightmiss0000" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0001" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0002" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0003" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0004" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0005" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0006" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0007" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0008" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0009" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0010" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0011" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0012" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightmiss0013" x="1930" y="4389" width="1920" height="1080"/>
-	<SubTexture name="rightsing0000" x="3860" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0001" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0002" x="0" y="5480" width="1920" height="1081"/>
-	<SubTexture name="rightsing0003" x="0" y="5480" width="1920" height="1081"/>
-	<SubTexture name="rightsing0004" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0005" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0006" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0007" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0008" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0009" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0010" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0011" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0012" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="rightsing0013" x="5790" y="4389" width="1920" height="1081"/>
-	<SubTexture name="upmiss0000" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0001" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0002" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0003" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0004" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0005" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0006" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0007" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0008" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0009" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0010" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0011" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0012" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upmiss0013" x="1930" y="5480" width="1920" height="1080"/>
-	<SubTexture name="upsing0000" x="3860" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0001" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0002" x="0" y="6571" width="1920" height="1081"/>
-	<SubTexture name="upsing0003" x="0" y="6571" width="1920" height="1081"/>
-	<SubTexture name="upsing0004" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0005" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0006" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0007" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0008" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0009" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0010" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0011" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0012" x="5790" y="5480" width="1920" height="1081"/>
-	<SubTexture name="upsing0013" x="5790" y="5480" width="1920" height="1081"/>
+	<SubTexture name="downmiss instance 10000" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10001" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10002" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10003" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10004" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10005" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10006" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10007" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10008" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10009" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10010" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10011" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10012" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downmiss instance 10013" x="0" y="0" width="1921" height="1080"/>
+	<SubTexture name="downsing instance 10000" x="1931" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10001" x="3862" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10002" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10003" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10004" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10005" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10006" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10007" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10008" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10009" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10010" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10011" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10012" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="downsing instance 10013" x="5793" y="0" width="1921" height="1081"/>
+	<SubTexture name="idle instance 10000" x="0" y="1091" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10001" x="2073" y="1091" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10002" x="4146" y="1091" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10003" x="0" y="2208" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10004" x="2073" y="2208" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10005" x="4146" y="2208" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10006" x="0" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10007" x="2073" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10008" x="4146" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10009" x="4146" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10010" x="4146" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10011" x="4146" y="3325" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10012" x="4146" y="2208" width="2063" height="1107"/>
+	<SubTexture name="idle instance 10013" x="0" y="2208" width="2063" height="1107"/>
+	<SubTexture name="leftmiss instance 10000" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10001" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10002" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10003" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10004" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10005" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10006" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10007" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10008" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10009" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10010" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10011" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10012" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftmiss instance 10013" x="6219" y="3325" width="1920" height="1080"/>
+	<SubTexture name="leftsing instance 10000" x="0" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10001" x="1930" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10002" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10003" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10004" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10005" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10006" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10007" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10008" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10009" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10010" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10011" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10012" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="leftsing instance 10013" x="3860" y="4442" width="1920" height="1081"/>
+	<SubTexture name="rightmiss instance 10000" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10001" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10002" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10003" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10004" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10005" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10006" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10007" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10008" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10009" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10010" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10011" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10012" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightmiss instance 10013" x="5790" y="4442" width="1920" height="1080"/>
+	<SubTexture name="rightsing instance 10000" x="0" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10001" x="1930" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10002" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10003" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10004" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10005" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10006" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10007" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10008" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10009" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10010" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10011" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10012" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="rightsing instance 10013" x="3860" y="5533" width="1920" height="1081"/>
+	<SubTexture name="upmiss instance 10000" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10001" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10002" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10003" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10004" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10005" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10006" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10007" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10008" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10009" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10010" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10011" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10012" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upmiss instance 10013" x="5790" y="5533" width="1920" height="1080"/>
+	<SubTexture name="upsing instance 10000" x="0" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10001" x="1930" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10002" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10003" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10004" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10005" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10006" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10007" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10008" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10009" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10010" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10011" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10012" x="3860" y="6624" width="1920" height="1081"/>
+	<SubTexture name="upsing instance 10013" x="3860" y="6624" width="1920" height="1081"/>
 </TextureAtlas>
