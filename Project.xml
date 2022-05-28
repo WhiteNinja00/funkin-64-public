@@ -98,7 +98,7 @@
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
 	<haxelib name="faxe" if='switch'/>
 	<!--<haxelib name="polymod"/> -->
-	<haxelib name="discord_rpc" if="desktop || android"/>
+	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="extension-videoview" if="android"/>
   	<haxelib name="extension-androidtools" if="android"/>
   	<config:android permission="android.permission.READ_EXTERNAL_STORAGE" if="android"/>
